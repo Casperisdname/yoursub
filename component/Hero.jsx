@@ -2,7 +2,10 @@ import Reveal from "./Reveal";
 
 function Hero() {
   return (
-    <div className="text-left pt-36 md:pl-36 font-medium py-8 md:w-[700px]  px-8">
+    <div
+      id="home"
+      className="text-left pt-36 md:pl-36 font-medium py-8 md:w-[700px]  px-8"
+    >
       <Reveal>
         <div>
           <div className="pb-2 text-blue-700 font-bold">Welcome to yoursub</div>

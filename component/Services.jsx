@@ -2,7 +2,7 @@ import Reveal from "./Reveal";
 
 function Services() {
   return (
-    <div className="pb-20">
+    <div id="services" className="pb-20">
       <Reveal>
         <div className="text-center text-4xl font-bold pb-16">OUR SERVICES</div>
         <div className="flex justify-center md:flex-row flex-col px-8 space-x-8">

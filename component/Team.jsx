@@ -6,7 +6,7 @@ import Reveal from "./Reveal";
 
 const slides = [
   {
-    title: "The best technical partner",
+    title: "The best partner",
     text: "Yoursub is the best technical partner you can have.",
     author: "Ayomikun",
   },
@@ -67,7 +67,7 @@ export default function Slider() {
                   {slides[index].title}
                 </h2>
                 <p className="text-gray-600">{slides[index].text}</p>
-                <div className="text-center flex pt-8 justify-center gap-4 ">
+                <div className="text-center flex pt-8 pb-8 justify-center gap-4 ">
                   <div>
                     <span className="text-4xl md:text-5xl font-bold">
                       10000+

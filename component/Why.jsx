@@ -3,11 +3,11 @@ import Reveal from "./Reveal";
 
 function Why() {
   return (
-    <div className="  pb-48 text-2xl">
+    <div className=" pb-48 text-2xl">
       <Reveal>
         <h2 className="text-center font-bold text-3xl">Why Choose Us?</h2>
         <p className="text-center pb-6 pt-6">Why Should you choose Yoursub</p>
-        <div className="grid md:grid-cols-3 gap-8 pr-4 pl-4 ">
+        <div className="grid md:grid-cols-3 gap-8 pr-4 pl-4 items-stretch">
           <Card
             emogi="⚡️"
             head="Instant transaction"

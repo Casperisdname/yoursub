@@ -2,7 +2,7 @@ import Reveal from "./Reveal";
 
 function About() {
   return (
-    <div className="md:w-[700px] md:pl-36 pb-48 text-2xl  text-left">
+    <div id="about" className="md:w-[700px] md:pl-36 pb-48 text-2xl  text-left">
       <Reveal>
         <div className="pt-20  text-center md:text-left md:pl-4 font-bold text-5xl">
           About Us

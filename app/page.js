@@ -5,6 +5,9 @@ import Why from "@/component/Why";
 import Services from "@/component/Services";
 import Partner from "@/component/Partner";
 import Team from "@/component/Team";
+import Stay from "@/component/Stay";
+import Started from "@/component/Started";
+import Footer from "@/component/Footer";
 
 export default function Home() {
   return (
@@ -19,6 +22,9 @@ export default function Home() {
       <Partner />
 
       <Team />
+      <Stay />
+      <Started />
+      <Footer />
     </div>
   );
 }

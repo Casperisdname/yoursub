@@ -2,7 +2,10 @@ import Reveal from "./Reveal";
 
 function Partner() {
   return (
-    <div className="px-4 md:flex md:justify-between md:items-center md:px-32 text-left bg-yellow-500 py-22 space-y-2">
+    <div
+      id="partnership"
+      className="px-4 md:flex md:justify-between md:items-center md:px-32 text-left bg-yellow-500 py-28 space-y-2"
+    >
       <Reveal>
         <div>
           <div className="text-4xl text-yellow-50 font-bold pb-4">
