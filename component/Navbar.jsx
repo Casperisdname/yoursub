@@ -72,7 +72,7 @@ const Navbar = () => {
           {open ? (
             <X
               className={`rotate-180 transition-transform duration-300 ${
-                scrolled ? "text-stone-700" : "text-white"
+                scrolled ? "text-stone-700" : "text-black"
               }`}
               size={28}
             />
